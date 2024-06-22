@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="flex w-[100vw] h-[100vh] bg-[#344151] items-center justify-center flex-col gap-10">
+        <div class="text-[#0398d4] capitalize font-medium text-[20px]">
+            Increment And Decrement
+        </div>
+        <div class="bg-white flex gap-12 p-3 px-5 rounded-sm text-[25px] text-[#344151]">
+            <!-- Negative Button -->
+            <button id="dec" onclick="decrement()" class="border-r-2 pr-5 border-[#bfbfbf]">
+                <i class="fa-solid fa-minus"></i>
+            </button>
+            <!-- Context -->
+            <div id="counter" class="font-bold">
+                0
+            </div>
+            <!-- Positive Button -->
+            <button id="inc" onclick="increment()" class="border-l-2 pl-5 border-[#bfbfbf]">
+                <i class="fa-solid fa-plus"></i>
+            </button>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
